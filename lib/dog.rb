@@ -19,6 +19,7 @@ class Dog
   
   def self.print_all
     for i in 0..@@all.length-1
+      puts @@all
   end 
   
   #def save
