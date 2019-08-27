@@ -20,7 +20,7 @@ class Dog
   def self.print_all
   
     results = @@all.each {|ev| puts ev }
-  
+    return results
   end 
   
   #def save
