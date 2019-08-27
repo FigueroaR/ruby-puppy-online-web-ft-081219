@@ -18,9 +18,8 @@ class Dog
   end 
   
   def self.print_all
-    for i in 0..@@all.length-1
-      puts @@all[i]
-    end 
+  
+    @@all.each {|ev| puts ev }
   end 
   
   #def save
