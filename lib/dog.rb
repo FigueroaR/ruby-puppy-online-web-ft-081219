@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all
   
-    @@all.each {|ev| puts "#{@name}"}
+    @@all.each {|ev| puts "#{self}"}
   end 
   
   #def save
