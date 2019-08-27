@@ -18,9 +18,7 @@ class Dog
   end 
   
   def self.print_all
-  
-    @@all.each {|ev| puts ev }
-
+for i in 0..@@all
   end 
   
   #def save
