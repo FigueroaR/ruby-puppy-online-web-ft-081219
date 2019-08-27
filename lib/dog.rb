@@ -17,7 +17,7 @@ class Dog
     @@all.delete_if{ |dogs| dogs == dogs }  
   end 
   
-  def self.print_all(ev)
+  def self.print_all
   
     @@all.each {|ev| puts ev }
   end 
