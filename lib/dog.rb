@@ -19,8 +19,8 @@ class Dog
   
   def self.print_all
   
-    results = @@all.index(name)
-    return results
+    @@all.each {|ev| puts ev }
+
   end 
   
   #def save
