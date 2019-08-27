@@ -18,7 +18,7 @@ class Dog
   end 
   
   def self.print_all
-    @@all.each {|ev| puts evto_s }
+    @@all.each {|ev| puts ev.to_s }
   end 
   
   #def save
