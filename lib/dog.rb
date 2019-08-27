@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all
   
-    Dog.each {|ev| puts ev }
+    @@all.each {|ev| puts ev }
   end 
   
   #def save
