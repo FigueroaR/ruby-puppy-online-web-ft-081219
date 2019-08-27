@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all
   
-    results = @@all.index (|ev|)
+    results = @@all.index(name)
     return results
   end 
   
