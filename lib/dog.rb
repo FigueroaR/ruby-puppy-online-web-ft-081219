@@ -18,7 +18,7 @@ class Dog
   end 
   
   def self.print_all
-for i in 0..@@all
+    for i in 0..@@all.length-1
   end 
   
   #def save
