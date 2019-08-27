@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all
   
-    results = @@all.each {|ev| puts ev }
+    results = @@all.index {|ev| }
     return results
   end 
   
