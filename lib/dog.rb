@@ -24,6 +24,7 @@ class Dog
   def save
     while self.new
     @@all << self
+    end
     
   end 
   
