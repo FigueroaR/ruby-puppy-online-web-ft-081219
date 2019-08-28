@@ -24,7 +24,7 @@ class Dog
   
   def save
     @@all << self
-    @@all.clas_variable_get
+    
   end 
   
 end 
