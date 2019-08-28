@@ -23,8 +23,8 @@ class Dog
   end 
   
   def save
-    saved = []
-    saved << self
+    
+    @@saved << self
     return saved
   end 
   
