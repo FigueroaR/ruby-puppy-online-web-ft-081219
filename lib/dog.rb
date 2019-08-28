@@ -23,7 +23,7 @@ class Dog
   end 
   
   def save
-    @@all << self
+    self.push(@@all)
   end 
   
 end 
